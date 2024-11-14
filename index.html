@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <img src="islamic.png" alt="pray-icon">
+        <!--<h1 id="aya">﴾وَأَقِمِ الصَّلَاةَ طَرَفَيِ النَّهَارِ وَزُلَفًا مِنَ اللَّيْلِ إِنَّ الْحَسَنَاتِ يُذْهِبْنَ السَّيِّئَاتِ ذَلِكَ ذِكْرَى لِلذَّاكِرِينَ﴿</h1>-->
+        <div class="search-div">
+            <input id="my-input" type="text"  >
+            <button onclick="fetchTime()" >CLICK</button>
+        </div>
+        <!--<div class="location">
+            <span id="my-location">algiers
+            </span>
+            <img id="location-img" src="location-sign.png" alt="">
+        </div>-->
+        <div id="my-block">
+            <div id="my-location">algiers</div>
+            <div id="my-date">14/02/2024</div>
+
+
+        </div>
+
+        
+        <ul class="salawt">
+            <li>Fajr
+                <div class="time" id="Fajr">05:45</div>
+                <div><img class="myimg"  src="isha.png" alt=""></div>
+               
+            </li>
+            <li>Al Shurouq
+                <div class="time" id="Sunrise">06:37</div>
+                <img class="myimg" src="sunrise.png" alt="">
+            </li>
+            <li>Dhuhr
+                <div class="time" id="Dhuhr">12:55</div>
+                <div><img class="myimg" src="sun (1).png" alt=""></div>
+            </li>
+            <li>Asr
+                <div class="time" id="Asr">15:28</div>
+                <div><img class="myimg" src="sun.png" alt=""></div>
+            </li>
+            <li>Marghib
+                <div class="time" id="Maghrib">18:40</div>
+                <div><img class="myimg" src="sunset.png" alt=""></div>
+            </li>
+            <li>Isha
+                <div class="time" id="Isha">20:19</div>
+                <div><img class="myimg" src="half-moon.png" alt=""></div>
+            </li>
+        </ul> 
+
+    </div>
+    
+    
+</body>
+</html>
